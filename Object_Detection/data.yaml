@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['bin', 'bin_cover', 'buoy_green', 'buoy_red', 'buoy_yellow', 'channel', 'object_dropoff', 'object_pickup', 'qual_gate', 'torpedo_cover', 'torpedo_hole', 'torpedo_target']
+
+roboflow:
+  workspace: auv-training-datasets
+  project: auv-dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/auv-training-datasets/auv-dataset/dataset/1
